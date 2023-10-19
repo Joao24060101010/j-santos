@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesnba2.css">
+    <title>Document</title>
+    </head>
+    <body>
+                <header>
+                    <div id="title">
+                      <h2>Sports</h2>
+                      <h2>Triumph</h2>
+                    </div>
+                    <nav> <!-- ADICIONA ESSA TAG COMO PAI DAS LISTAS -->
+                        <ul>
+                            <li><a href="./home.html"><li>Clubes</li></a></li>
+                            <li><a href="./home2.html"><li>Agasalhos</li></a></li>
+                            <li><a href="./home3.html"><li>Seleções</li></a></li>
+                            <li><a href="./home4.html"><li>NBA</li></a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="./home4.html" id="categori-as"><li>LA Lakers</li></a></li>
+                            <li><a href="./celtics.html"><li>Boston Celtics</li></a></li>
+                            <li><a href="./warriors.html"><li>Golden States Warriors</li></a></li>
+                            <li><a href="./bulls.html"><li>Chicaco Bulls</li></a></li>
+                            <li><a href="./spurs.html"><li>Spurs</li></a></li>
+                          </ul>
+                    </nav>
+                  </header>
+                
+                
+            
+            
+                    <div class="header-icons">
+                        <i class='bx bx-cart'></i>
+                        <div id="menu"><i class='bx bx-menu'></i></div>
+                    </div><!--header-icons-->
+                </header>
+            
+                <section class="home">
+                    <div class="home-img">
+                        <img src="imgs/celtics.webp" class="one">
+                    </div><!--home-img-->
+    
+                    <div class="'home-text">
+    
+                        <h1>Boston Celtics</h1>
+                        <h5>New Jersey 23/24</h5>
+                        <h3>R$199.00</h3>
+                        <a href="#" class="btn">Compre Agora</a>
+                    </div>
+                        
+                    </div>
+                </section><!--home-->
+                
+            
+            
+                <div class="main">
+                    <div class="row">
+                        <li><img src="imgs/logo-boston-celtics-4096.png" onclick="slider('imgs/celtics.webp')"></li>
+                    </div><!--row-->
+            
+                    <div class="row2">
+                        <li><img src="imgs/logo-boston-celtics-4096.png" onclick="slider('imgs/celtics2.webp')"></li>
+                        
+    
+                    </div><!--row2-->
+            
+                    <div class="row3">
+                        <li><img src="imgs/logo-boston-celtics-4096.png" onclick="slider('imgs/celtics3.webp')"></li>
+                    </div><!--row3-->
+                </div><!--main-->
+                 
+              
+                <script>
+                    function slider (anything){
+                        document.querySelector ('.one') .src = anything;
+                    };
+            
+                   let menu = document.querySelector ('#menu-icon');
+                   let navbar = document.querySelector ('.navbar');
+            
+                   menu.onclick = () => {
+                    menu.classList.toggle ('bx-x');
+                    navbar.classList.toggle ('open');
+                   }
+                </script>
+                 
+    
+                
+                
+    
+            
+        </header>
+        
+        <main>
+    </body>
+    </html>
+    
